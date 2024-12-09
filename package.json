@@ -8,7 +8,7 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier . --write",
-    "start:dev":"tsnd --respawn ./src/server.ts"
+    "start:dev": "tsnd --respawn ./src/server.ts"
   },
   "author": "Abumahid Islam",
   "license": "ISC",
@@ -16,7 +16,8 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.8.4"
+    "mongoose": "^8.8.4",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
